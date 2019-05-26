@@ -1,0 +1,35 @@
+
+###########
+Laundry C&C
+###########
+
+Application needed :
+1. XAMPP (Apache & phpMyAdmin)
+2. MySQL
+
+Database Server
+***************
+Server: 127.0.0.1
+Server type : MySQL
+Server version: 5.7.16-log- MySQL Community Server (GPL)
+Protocol version : 10
+User : root@localhost
+Server charset: UTF-8 Unicode (utf8)
+
+Web Server
+***********
+Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.5.38
+Database client version : libmysql-mysqlnd 5.0.11-dev-20120503-$Id: 15d5c781cfcad91193dceae1d2cdd127674ddb3e$
+PHP extension : mysqli
+PHP version : 5.5.38
+
+
+STEPS
+*****
+(Please make sure you already connected to Apache and phpMyAdmin)
+1. Create database 'laundrycc' in phpMyAdmin
+2. Import 'laundrycc.sql'
+3. Copy the folder (all the files) to htdocs in XAMPP folder.
+4. Open the application in browser. Example: localhost/laundrycc/home.php
+5. Enjoy! ^-^
+

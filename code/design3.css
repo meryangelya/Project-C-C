@@ -1,0 +1,198 @@
+#body {
+	background: url(bg2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#box {
+	background-color: rgba(255,255,255,0.6);
+	display: inline-block;
+	height : 730px;
+	width: 800px;
+}
+
+#box1 {
+	background-color: rgba(255,255,255,0.6);
+	height : 630px;
+	width: 1200px;
+	text-align: left;
+}
+
+#box2 {
+	background-color: white;
+	width: 850px;
+	height: 365px;
+}
+
+
+#table-scroll {
+  height:355px;
+  overflow:auto;  
+}
+
+button-container {
+    text-align: center;
+}
+            
+button {
+    position: relative;
+    background: currentColor;
+    border: 1px solid currentColor;
+	font-family:"Century Gothic";
+    font-size: 18px;
+    color: #5fb8d8;
+    margin:8px;
+    padding: 0.75rem 3rem;
+    cursor: pointer;
+    -webkit-transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+    transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+    overflow: hidden;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.button1 {
+    position: relative;
+    background: currentColor;
+    border: 1px solid currentColor;
+	font-family:"Century Gothic";
+    font-size: 18px;
+    color: #B2B2B2;
+    margin: 8px;
+    padding: 0.75rem 3rem;
+    cursor: pointer;
+    -webkit-transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+    transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+    overflow: hidden;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.button2 {
+    position: relative;
+    background: currentColor;
+	font-family:"Century Gothic";
+    font-size: 16px;
+    color: #B2B2B2;
+    margin: 3px;
+    padding: 8px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+    transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+    overflow: hidden;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+            
+button span {
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+            
+button::before {
+    content: '';
+    position: absolute;
+    background: #DCDCDC;
+    border: 50vh solid #DCDCDC;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    display: block;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
+}
+            
+button:hover {
+    color: #f69898;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+}
+            
+button:active::before, .button:focus::before {
+    -webkit-transition: opacity 0.28s ease 0.364s, -webkit-transform 1.12s ease;
+    transition: opacity 0.28s ease 0.364s, -webkit-transform 1.12s ease;
+    transition: transform 1.12s ease, opacity 0.28s ease 0.364s;
+    transition: transform 1.12s ease, opacity 0.28s ease 0.364s, -webkit-transform 1.12s ease;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+}
+            
+button:focus {
+    outline: none;
+}
+
+.container {
+	width: 600px;
+	height: 300px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto; 
+}
+.container1 {
+	width: 770px;
+	height: 0px;
+	margin-top: auto;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px; 
+}
+
+.container2 {
+	background-color: rgba(175,238,238,0.8);
+	width: 600px;
+	height: 0px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto; 
+}
+
+.input-txt {
+	width: 80%;
+	background-color: rgba(255,255,255,0);
+	border: none;
+	font-size: 14px;
+	color: black;
+	border-bottom: 2px solid #5fb8d8;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-transition: background-color 0.5s ease-in-out;
+	-o-transition: background-color 0.5s ease-in-out;
+	-webkit-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
+	padding: 8px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+.input-txt:-moz-placeholder {
+  color: #999;
+}
+.input-txt:-ms-input-placeholder {
+  color: #999;
+}
+.input-txt::-webkit-input-placeholder {
+  color: #999;
+}
+.input-txt:focus {
+  background-color: #5fb8d8;
+}
+
+.font1 {
+	font-family:"Century Gothic";
+    font-size: 18px;
+    color: black;
+}
+
+.font2 {
+	font-family:"Century Gothic";
+    font-size: 36px;
+    color: black;
+}

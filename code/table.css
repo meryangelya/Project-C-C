@@ -1,0 +1,15 @@
+table {
+    font-family: "Century Gothic";
+    border-collapse: collapse;
+    width: 90%;
+}
+
+td, th {
+    border: 2px solid #5fb8d8;
+    text-align: center;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #b2d7e5;
+}
